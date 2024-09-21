@@ -34,5 +34,9 @@ if search_box_Password.get_attribute("Value") == 'rosa3935':
 else:
     print("A senha não foi inserida corretamente")
 
+finalizarRegistro = driver.find_element(By.XPATH, '/html/body/div[2]/div/main/div/form/div/div/div[2]/button')
+finalizarRegistro.click()
+time.sleep(1)
+
 
 
